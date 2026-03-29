@@ -8,10 +8,11 @@
 1. 通过 openspec-apply-change 启动执行
 2. 读取 `prompt.md` ，`plan.md`与 `documentation.md`
 3. 获取 openspec tasks，选取当前 task
-4. 按 task 执行实现/修改
-5. 对照验收标准进行自检与验证
-6. 更新logs文件夹相关文档与记录（如任务状态、变更说明）
-7. 标记验收结论（通过 / 未通过），再进入下一个 task
+4. 调用 superpowers:brainstorming 技能进行讨论并记录结果
+5. 按 task 执行实现/修改
+6. 对照验收标准进行自检与验证
+7. 更新logs文件夹相关文档与记录（如任务状态、变更说明）
+8. 标记验收结论（通过 / 未通过），再进入下一个 task
 
 ## 验证规则
   - 输出符合 task 描述
